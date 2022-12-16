@@ -18,17 +18,19 @@ p {
 }
 
 #tutorial {
-    margin: -30% auto;
-    font-size: 2rem;
+    margin: -12em auto;
+    font-size: 2em;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    width: 100%;
 }
 
 .info {
     position: absolute;
-    font-size: 2rem;
+    font-size: 2em;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 2rem;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 #general-info {
@@ -52,7 +54,17 @@ p {
 
 #time-info {
     margin: -10% auto;
-    font-size: 2rem;
+    font-size: 2em;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+}
+
+.key {
+    width: 1em;
+    height: 1em;
+    background: white;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 5px;
+    line-height: 1em;
 }
