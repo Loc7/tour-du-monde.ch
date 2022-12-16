@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tour du Monde</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="game.css" />
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    
+    <section id="general-info" class="info">
+      <p class="stageName"></p>
+      <p class="bikeName"></p>
+    </section>
+    
+    <section id="ride-info" class="info">
+      <p class="bikeGears"></p>
+      <p class="bikeSpeed"></p>
+      <p class="bikeDistance"></p>
+    </section>
+    
+    <section id="current-waypoint-info" class="info">
+      <p class="currentWaypointName"></p>
+      <p class="currentWaypointElevation"></p>
+      <p class="currentWaypointIncline"></p>
+    </section>
+
+    <section id="next-waypoint-info" class="info">
+      <p class="nextWaypointName"></p>
+      <p class="nextWaypointElevation"></p>
+      <p class="nextWaypointIncline"></p>
+    </section>
+
+    <section id="time-info">
+      <p class="elapsedTime"></p>
+    </section>
+
+    <section id="tutorial">
+      <p>Acceleration: Press Left/Right arrow keys alternatingly.</p>
+      <p>Shifting: Press A/Y (front up/down) or S/X (rear up/down).</p>
+    </section>
+    <script src="game.js"></script>
+    <script src="eventListener.js"></script>
+  </body>
+</html>
