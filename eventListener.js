@@ -13,25 +13,25 @@ document.addEventListener('keyup', function (event) {
     }, 10);
   }
 
-  if (event.key === 'r') {
+  if (event.key === 't') {
     if (currentFrontGear < bike.frontGears) {
       currentFrontGear += 1;
     }
   }
 
-  if (event.key === 'f') {
+  if (event.key === 'r') {
     if (currentFrontGear > 1) {
       currentFrontGear -= 1;
     }
   }
 
-  if (event.key === 'k') {
+  if (event.key === 'i') {
     if (currentRearGear < bike.rearGears) {
       currentRearGear += 1;
     }
   }
 
-  if (event.key === 'i') {
+  if (event.key === 'o') {
     if (currentRearGear > 1) {
       currentRearGear -= 1;
     }

@@ -18,49 +18,49 @@ const bike = {
   rearGears: 9
 };
 
-const stage = {
-  name: "Tour De France 2022, Stage 12: Briançon – Alpe d'Huez",
-  //img: "tdf22-12.jpg",
-  waypoints: [
-    { "km": 0, "incline": 1.4, "elevation": "1337", "name": "Départ – Briançon" },
-    { "km": 11.8, "incline": 5.3, "elevation": "1497", "name": "Le Monétier-les-Bains" },
-    { "km": 24.6, "incline": 8.3, "elevation": "2058", "name": "Col du Lautaret" },
-    { "km": 33.2, "incline": -5.3, "elevation": "2642", "name": "Col du Galibier" },
-    { "km": 50.7, "incline": 3, "elevation": "1433", "name": "Valloire" },
-    { "km": 56.6, "incline": -5, "elevation": "1564", "name": "Col du Télégraphe" },
-    { "km": 67.7, "incline": -2, "elevation": "734", "name": "Saint-Michel-de-Maurienne" },
-    { "km": 80.5, "incline": 5, "elevation": "536", "name": "Saint-Jean-de-Maurienne" },
-    { "km": 102.9, "incline": 6, "elevation": "1486", "name": "Saint-Sorlin-d'Arves" },
-    { "km": 110.6, "incline": -4, "elevation": "2067", "name": "Col de la Croix de Fer" },
-    { "km": 128.2, "incline": -3, "elevation": "1275", "name": "Rivier d'Allemond" },
-    { "km": 139.3, "incline": 0, "elevation": "731", "name": "Allemond" },
-    { "km": 148.7, "incline": 8, "elevation": "718", "name": "Le Bourg d'Oisans" },
-    { "km": 159.3, "incline": 8, "elevation": "1426", "name": "Huez Village" },
-    { "km": 165.1, "incline": 0, "elevation": "1850", "name": "Alpe d'Huez" }
-  ]
-}
-
 // const stage = {
 //   name: "Tour De France 2022, Stage 12: Briançon – Alpe d'Huez",
-//   img: "tdf22-12.jpg",
+//   //img: "tdf22-12.jpg",
 //   waypoints: [
-//     { "km": 0, "incline": 5, "elevation": "1337", "name": "Départ – Briançon" },
-//     { "km": 0.1, "incline": -5, "elevation": "1497", "name": "Le Monétier-les-Bains" },
-//     { "km": 2, "incline": 0, "elevation": "2058", "name": "Col du Lautaret" },
-//     { "km": 3, "incline": -9, "elevation": "2642", "name": "Col du Galibier" },
-//     { "km": 4.0, "incline": 0, "elevation": "1433", "name": "Valloire" },
-//     { "km": 40.0, "incline": 0, "elevation": "1564", "name": "Col du Télégraphe" },
-//     { "km": 50.0, "incline": -2, "elevation": "734", "name": "Saint-Michel-de-Maurienne" },
-//     { "km": 60.0, "incline": 5, "elevation": "536", "name": "Saint-Jean-de-Maurienne" },
-//     { "km": 70.0, "incline": 6, "elevation": "1486", "name": "Saint-Sorlin-d'Arves" },
-//     { "km": 80.0, "incline": -4, "elevation": "2067", "name": "Col de la Croix de Fer" },
-//     { "km": 90.0, "incline": -3, "elevation": "1275", "name": "Rivier d'Allemond" },
-//     { "km": 100.0, "incline": 0, "elevation": "731", "name": "Allemond" },
-//     { "km": 110.0, "incline": 8, "elevation": "718", "name": "Le Bourg d'Oisans" },
-//     { "km": 120.0, "incline": 8, "elevation": "1426", "name": "Huez Village" },
-//     { "km": 130.0, "incline": 0, "elevation": "1850", "name": "Alpe d'Huez" }
+//     { "km": 0, "incline": 1.4, "elevation": "1337", "name": "Départ – Briançon" },
+//     { "km": 11.8, "incline": 5.3, "elevation": "1497", "name": "Le Monétier-les-Bains" },
+//     { "km": 24.6, "incline": 8.3, "elevation": "2058", "name": "Col du Lautaret" },
+//     { "km": 33.2, "incline": -5.3, "elevation": "2642", "name": "Col du Galibier" },
+//     { "km": 50.7, "incline": 3, "elevation": "1433", "name": "Valloire" },
+//     { "km": 56.6, "incline": -5, "elevation": "1564", "name": "Col du Télégraphe" },
+//     { "km": 67.7, "incline": -2, "elevation": "734", "name": "Saint-Michel-de-Maurienne" },
+//     { "km": 80.5, "incline": 5, "elevation": "536", "name": "Saint-Jean-de-Maurienne" },
+//     { "km": 102.9, "incline": 6, "elevation": "1486", "name": "Saint-Sorlin-d'Arves" },
+//     { "km": 110.6, "incline": -4, "elevation": "2067", "name": "Col de la Croix de Fer" },
+//     { "km": 128.2, "incline": -3, "elevation": "1275", "name": "Rivier d'Allemond" },
+//     { "km": 139.3, "incline": 0, "elevation": "731", "name": "Allemond" },
+//     { "km": 148.7, "incline": 8, "elevation": "718", "name": "Le Bourg d'Oisans" },
+//     { "km": 159.3, "incline": 8, "elevation": "1426", "name": "Huez Village" },
+//     { "km": 165.1, "incline": 0, "elevation": "1850", "name": "Alpe d'Huez" }
 //   ]
 // }
+
+const stage = {
+  name: "Tour De France 2022, Stage 12: Briançon – Alpe d'Huez",
+  img: "tdf22-12.jpg",
+  waypoints: [
+    { "km": 0, "incline": -8, "elevation": "1337", "name": "Départ – Briançon" },
+    { "km": 50, "incline": -5, "elevation": "1497", "name": "Le Monétier-les-Bains" },
+    { "km": 60, "incline": 0, "elevation": "2058", "name": "Col du Lautaret" },
+    { "km": 70, "incline": -9, "elevation": "2642", "name": "Col du Galibier" },
+    { "km": 4.0, "incline": 0, "elevation": "1433", "name": "Valloire" },
+    { "km": 40.0, "incline": 0, "elevation": "1564", "name": "Col du Télégraphe" },
+    { "km": 50.0, "incline": -2, "elevation": "734", "name": "Saint-Michel-de-Maurienne" },
+    { "km": 60.0, "incline": 5, "elevation": "536", "name": "Saint-Jean-de-Maurienne" },
+    { "km": 70.0, "incline": 6, "elevation": "1486", "name": "Saint-Sorlin-d'Arves" },
+    { "km": 80.0, "incline": -4, "elevation": "2067", "name": "Col de la Croix de Fer" },
+    { "km": 90.0, "incline": -3, "elevation": "1275", "name": "Rivier d'Allemond" },
+    { "km": 100.0, "incline": 0, "elevation": "731", "name": "Allemond" },
+    { "km": 110.0, "incline": 8, "elevation": "718", "name": "Le Bourg d'Oisans" },
+    { "km": 120.0, "incline": 8, "elevation": "1426", "name": "Huez Village" },
+    { "km": 130.0, "incline": 0, "elevation": "1850", "name": "Alpe d'Huez" }
+  ]
+}
 
 var currentFrontGear = Math.round(bike.frontGears / 2);
 var currentRearGear = Math.round(bike.rearGears / 2);
@@ -77,8 +77,10 @@ var waypointIndex = 0;
 var nextWaypoint = 0;
 var inclineIsSet = false;
 var inclineTransitionStepCount = 0;
+var timeoutStepCount = 0;
 var inverseIncline = 0;
 var riddenDistance = 0;
+var timeoutRunning = false;
 
 var keys = {
   left: false,
@@ -183,10 +185,29 @@ function update() {
   document.querySelector(".bikeDistance").innerHTML = bikeDistance;
 
   if (bike.speed == 0) {
-    document.querySelector("#tutorial").style.display = "block";
+    if (!timeoutRunning) {
+      timeoutStepCount = 0;
+      timeoutRunning = true
+    } else {
+      timeoutStepCount += 1;
+    }
   } else {
     document.querySelector("#tutorial").style.display = "none";
+    timeoutStepCount = 0
   }
+
+  // 100 steps = 1 second
+  if (timeoutStepCount == 300) {
+    document.querySelector("#tutorial").style.display = "block";
+    timeoutRunning = false;
+  }
+
+  // Braking to avoid crashing
+  document.querySelector("#crash").style.display = "none";
+  if (bike.speed > 100) {
+    document.querySelector("#crash").style.display = "block";
+  }
+
 
   // Waypoint/Incline check and Canvas rotation
   // Current waypoint
@@ -242,6 +263,6 @@ function update() {
     }
     inclineIsSet = false;
   }
-}
+};
 
 setInterval(update, 10);
